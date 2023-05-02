@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -16,7 +15,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Sebastian</span>
+            Hi, I&apos;m <span className="text-[#915eff]">Sebastian</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {/* this is gonna need a little more realism */}
@@ -26,9 +25,10 @@ const Hero = () => {
             appealing, intuitive, and scalable web applications. I am committed
             to staying up-to-date with the latest technologies and industry best
             practices, and dedicated to delivering high-quality solutions that
-            exceed my clients' expectations. If you're looking for a Full Stack
-            Developer who can bring your web application vision to life, let's
-            connect and discuss how I can help you achieve your business goals.
+            exceed my clients&apos; expectations. If you&apos;re looking for a
+            Full Stack Developer who can bring your web application vision to
+            life, let&apos;s connect and discuss how I can help you achieve your
+            business goals.
           </p>
         </div>
       </div>
