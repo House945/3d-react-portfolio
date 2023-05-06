@@ -19,7 +19,7 @@ const App = () => {
         <div>
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
-            <Hero />
+            {/* <Hero /> */}
           </div>
         </div>
         <About />
